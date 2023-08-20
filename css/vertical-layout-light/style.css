@@ -8751,7 +8751,7 @@
     --gray-lighter: #e8eff4;
     --gray-lightest: #e6e9ed;
     --black: #000000;
-    --primary: #456C85;
+    --primary: #1d71f7;
     --secondary: #a3a4a5;
     --success: #57B657;
     --info: #248AFD;
@@ -11544,8 +11544,8 @@ fieldset:disabled .wizard>.actions a,
 .btn-primary,
 .wizard>.actions a {
     color: #fff;
-    background-color: #456C85;
-    border-color: #456C85;
+    background-color: #1d71f7;
+    border-color: #1d71f7;
 }
 
 .btn-primary:hover,
@@ -11570,8 +11570,8 @@ fieldset:disabled .wizard>.actions a,
 .btn-primary:disabled,
 .wizard>.actions a:disabled {
     color: #fff;
-    background-color: #456C85;
-    border-color: #456C85;
+    background-color: #1d71f7;
+    border-color: #1d71f7;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active,
@@ -11894,14 +11894,14 @@ fieldset:disabled .wizard>.actions a,
 }
 
 .btn-outline-primary {
-    color: #456C85;
-    border-color: #456C85;
+    color: #1d71f7;
+    border-color: #1d71f7;
 }
 
 .btn-outline-primary:hover {
     color: #fff;
-    background-color: #456C85;
-    border-color: #456C85;
+    background-color: #1d71f7;
+    border-color: #1d71f7;
 }
 
 .btn-outline-primary:focus,
@@ -11911,7 +11911,7 @@ fieldset:disabled .wizard>.actions a,
 
 .btn-outline-primary.disabled,
 .btn-outline-primary:disabled {
-    color: #456C85;
+    color: #1d71f7;
     background-color: transparent;
 }
 
@@ -11919,8 +11919,8 @@ fieldset:disabled .wizard>.actions a,
 .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show>.btn-outline-primary.dropdown-toggle {
     color: #fff;
-    background-color: #456C85;
-    border-color: #456C85;
+    background-color: #1d71f7;
+    border-color: #1d71f7;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
@@ -15469,7 +15469,7 @@ a.badge:focus {
 
 .badge-primary {
     color: #fff;
-    background-color: #456C85;
+    background-color: #1d71f7;
 }
 
 a.badge-primary:hover,
@@ -17040,7 +17040,7 @@ a.close.disabled {
 
 .bg-primary,
 .settings-panel .color-tiles .tiles.primary {
-    background-color: #456C85 !important;
+    background-color: #1d71f7 !important;
 }
 
 a.bg-primary:hover,
@@ -17221,7 +17221,7 @@ button.bg-dark:focus,
 }
 
 .border-primary {
-    border-color: #456C85 !important;
+    border-color: #1d71f7 !important;
 }
 
 .border-secondary,
@@ -20386,7 +20386,7 @@ button.bg-dark:focus,
 
 .text-primary,
 .list-wrapper .completed .remove {
-    color: #456C85 !important;
+    color: #1d71f7 !important;
 }
 
 a.text-primary:hover,
@@ -20956,7 +20956,7 @@ input:focus {
 }
 
 .bg-facebook {
-    background: #456C85;
+    background: #1d71f7;
 }
 
 .bg-google {
@@ -21146,11 +21146,11 @@ address p {
 }
 
 .blockquote-primary {
-    border-color: #456C85;
+    border-color: #1d71f7;
 }
 
 .blockquote-primary .blockquote-footer {
-    color: #456C85;
+    color: #1d71f7;
 }
 
 .blockquote-secondary {
@@ -21224,7 +21224,7 @@ address p {
 }
 
 .text-facebook {
-    color: #456C85;
+    color: #1d71f7;
 }
 
 .text-google {
@@ -21327,7 +21327,7 @@ code {
 }
 
 .footer a {
-    color: #456C85;
+    color: #1d71f7;
     font-size: inherit;
 }
 
@@ -21965,7 +21965,7 @@ code {
 }
 
 .accordion>.card .card-header a[aria-expanded="true"] {
-    color: #456C85;
+    color: #1d71f7;
 }
 
 .accordion>.card .card-header a[aria-expanded="true"]:before {
@@ -22096,7 +22096,7 @@ code {
 }
 
 .accordion.accordion-solid-header .card .card-header a[aria-expanded="true"] {
-    background: #456C85;
+    background: #1d71f7;
     color: #ffffff;
     border-radius: 8px;
 }
@@ -22162,7 +22162,7 @@ code {
 }
 
 .accordion.accordion-multi-colored .card:nth-child(1) {
-    background: #456C85;
+    background: #1d71f7;
 }
 
 .accordion.accordion-multi-colored .card:nth-child(2) {
@@ -22212,8 +22212,8 @@ code {
 /*Badge outlined variations*/
 
 .badge-outline-primary {
-    color: #456C85;
-    border: 1px solid #456C85;
+    color: #1d71f7;
+    border: 1px solid #1d71f7;
 }
 
 .badge-outline-secondary {
@@ -22379,8 +22379,8 @@ code {
 
 .alert-fill-primary {
     color: #ffffff;
-    background-color: #456C85;
-    border-color: #456C85;
+    background-color: #1d71f7;
+    border-color: #1d71f7;
 }
 
 .alert-fill-primary hr {
@@ -22834,7 +22834,7 @@ code {
 }
 
 .btn-facebook {
-    background: #456C85;
+    background: #1d71f7;
     color: #ffffff;
 }
 
@@ -22850,7 +22850,7 @@ code {
 }
 
 .btn-facebook.btn-social-icon-text i {
-    background: #456C85;
+    background: #1d71f7;
     padding: .75rem;
     display: inline-block;
     margin-right: 1.5rem;
@@ -22858,7 +22858,7 @@ code {
 }
 
 .btn-outline-facebook {
-    border: 1px solid #456C85;
+    border: 1px solid #1d71f7;
     color: #1d71f7;
 }
 
