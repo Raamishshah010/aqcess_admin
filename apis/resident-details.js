@@ -61,7 +61,7 @@ $.ajax(settings).done(function(response) {
             $('#managerTable').html(`<h6 class="m-5">No Data Found</h6>`)
         } else {
             response.data.forEach(function(item) {
-                $('#userTable').append(`
+                $('#managerTable').append(`
             <tr>
                             
                             <td class="font-weight-bold">${item.fullName}</td>
@@ -105,7 +105,7 @@ $.ajax(settings).done(function(response) {
             $('#securityTable').html(`<h6 class="m-5">No Data Found</h6>`)
         } else {
             response.data.forEach(function(item) {
-                $('#userTable').append(`
+                $('#securityTable').append(`
             <tr>
                             
                             <td class="font-weight-bold">${item.fullName}</td>
