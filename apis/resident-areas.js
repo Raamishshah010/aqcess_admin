@@ -24,7 +24,7 @@ $.ajax(settings).done(function(response) {
     
     
                 <td class="font-weight-bold">
-                    <a href="./category-details.html" class="badge badge-primary"
+                    <a href="./area-details.html?id=${element.pin}" class="badge badge-primary"
                     >View Detail</a>
                 </td>
                                                     
