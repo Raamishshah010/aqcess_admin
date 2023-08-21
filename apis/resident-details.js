@@ -76,9 +76,9 @@ $.ajax(settings).done(function(response) {
                             </td>
                             
                         </tr>
-            `)
-            })
-        }
+            `);
+            });
+        };
 
     });
 
