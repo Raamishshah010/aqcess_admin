@@ -29,7 +29,7 @@ $.ajax(settings).done(function(response) {
     
     
                 <td class="font-weight-bold">
-                    <a href="./category-details.html" class="badge badge-primary"
+                    <a href="./area-details.html?id=${element.pin}" class="badge badge-primary"
                     >View Detail</a>
                 </td>
                                                     
@@ -94,9 +94,8 @@ $.ajax(settings).done(function(response) {
                             <td class="font-weight-bold">${element.pin}</td>
                             <td class="font-weight-bold">${element.date.slice(0,10)}</td>
                             <td class="font-weight-bold">
-                                <a href="./category-details.html" class="badge badge-primary"
-                                >View Detail</a
-                            >
+                                <a href="./user-details.html?id=${element._id}" class="badge badge-primary"
+                                >View Detail</a>
                             </td>
                             
                         </tr>

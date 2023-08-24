@@ -114,9 +114,8 @@ $.ajax(settings).done(function(response) {
                             <td class="font-weight-bold">${item.pin}</td>
                             <td class="font-weight-bold">${item.date.slice(0,10)}</td>
                             <td class="font-weight-bold">
-                                <a href="./manager-details.html?id=${item._id}" class="badge badge-primary"
-                                >View Detail</a
-                            >
+                                <a href="./security-details.html?id=${element._id}" class="badge badge-primary"
+                                >View Detail</a>
                             </td>
                             
                         </tr>
@@ -157,9 +156,8 @@ $.ajax(settings).done(function(response) {
                             <td class="font-weight-bold">${item.pin}</td>
                             <td class="font-weight-bold">${item.date.slice(0,10)}</td>
                             <td class="font-weight-bold">
-                                <a href="./manager-details.html?id=${item._id}" class="badge badge-primary"
-                                >View Detail</a
-                            >
+                                <a href="./user-details.html?id=${element._id}" class="badge badge-primary"
+                                >View Detail</a>
                             </td>
                             
                         </tr>

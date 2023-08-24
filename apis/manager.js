@@ -23,14 +23,25 @@ $.ajax(settings).done(function(response) {
                             <td class="font-weight-bold">${element.address}</td>
                             <td class="font-weight-bold">${element.pin}</td>
                             <td class="font-weight-bold">${element.date.slice(0,10)}</td>
+                            <td class="font-weight-bold" id="statusCheck${i}"></td>
                             <td class="font-weight-bold">
                                 <a href="./manager-details.html?id=${element._id}" class="badge badge-primary"
-                                >View Detail</a
-                            >
+                                >View Detail</a>
                             </td>
                             
                         </tr>
-            `)
+            `);
+
+            if (element.isBlocked) {
+                $(`#statusCheck${i}`).append(`
+                <span class="badge badge-danger">Blocked</span> 
+                `)
+            } else {
+                $(`#statusCheck${i}`).append(`
+                <span class="badge badge-success">Active</span> 
+                `)
+            }
+
         }
     }
 
