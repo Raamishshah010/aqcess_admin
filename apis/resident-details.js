@@ -5,7 +5,7 @@ let myParam = urlParam.get('id');
 console.log(myParam);
 
 var settings = {
-    "url": "http://192.168.0.127:3000/admin/single-resident",
+    "url": "https://aqcess-f278n.ondigitalocean.app/admin/single-resident",
     "method": "POST",
     "timeout": 0,
     "headers": {
@@ -41,7 +41,7 @@ $.ajax(settings).done(function(response) {
 
     // MANAGERS
     var settings = {
-        "url": "http://192.168.0.127:3000/admin/all-managers-of-area",
+        "url": "https://aqcess-f278n.ondigitalocean.app/admin/all-managers-of-area",
         "method": "POST",
         "timeout": 0,
         "headers": {
@@ -87,7 +87,7 @@ $.ajax(settings).done(function(response) {
     // SECURITY
 
     var settings = {
-        "url": "http://192.168.0.127:3000/admin/all-security-of-area",
+        "url": "https://aqcess-f278n.ondigitalocean.app/admin/all-security-of-area",
         "method": "POST",
         "timeout": 0,
         "headers": {
@@ -128,7 +128,7 @@ $.ajax(settings).done(function(response) {
 
     // USERS
     var settings = {
-        "url": "http://192.168.0.127:3000/admin/all-users-of-area",
+        "url": "https://aqcess-f278n.ondigitalocean.app/admin/all-users-of-area",
         "method": "POST",
         "timeout": 0,
         "headers": {
@@ -186,7 +186,7 @@ function editResidentArea() {
     $('#subBtn').html('Please Wait.....');
     $('#subBtn').addClass('disabled')
     var settings = {
-        "url": "http://192.168.0.127:3000/admin/edit-resident",
+        "url": "https://aqcess-f278n.ondigitalocean.app/admin/edit-resident",
         "method": "POST",
         "timeout": 0,
         "headers": {

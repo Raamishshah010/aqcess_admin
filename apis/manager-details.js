@@ -6,7 +6,7 @@ console.log(myParam);
 
 
 var settings = {
-    "url": "http://192.168.0.127:3000/admin/single-manager",
+    "url": "https://aqcess-f278n.ondigitalocean.app/admin/single-manager",
     "method": "POST",
     "timeout": 0,
     "headers": {
@@ -49,7 +49,7 @@ $.ajax(settings).done(function(response) {
 
     $('#checkBlock').on('click', () => {
         var settings = {
-            "url": "http://192.168.0.127:3000/admin/block-manager",
+            "url": "https://aqcess-f278n.ondigitalocean.app/admin/block-manager",
             "method": "POST",
             "timeout": 0,
             "headers": {

@@ -1,7 +1,7 @@
 // ALL MANAGERS
 
 var settings = {
-    "url": "http://192.168.0.127:3000/admin/all-security-guards",
+    "url": "https://aqcess-f278n.ondigitalocean.app/admin/all-security-guards",
     "method": "GET",
     "timeout": 0,
 };

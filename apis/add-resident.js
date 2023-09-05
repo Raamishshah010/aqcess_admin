@@ -9,7 +9,7 @@ function addResidentArea() {
     $('#subBtn').html('Please Wait.....');
     $('#subBtn').addClass('disabled')
     var settings = {
-        "url": "http://192.168.0.127:3000/admin/add-resident",
+        "url": "https://aqcess-f278n.ondigitalocean.app/admin/add-resident",
         "method": "POST",
         "timeout": 0,
         "headers": {

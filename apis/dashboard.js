@@ -1,6 +1,6 @@
 //ALL RESIDENTS
 var settings = {
-    "url": "http://192.168.0.127:3000/admin/all-resident",
+    "url": "https://aqcess-f278n.ondigitalocean.app/admin/all-resident",
     "method": "GET",
     "timeout": 0,
 };
@@ -43,7 +43,7 @@ $.ajax(settings).done(function(response) {
 // ALL MANAGERS
 
 var settings = {
-    "url": "http://192.168.0.127:3000/admin/all-managers",
+    "url": "https://aqcess-f278n.ondigitalocean.app/admin/all-managers",
     "method": "GET",
     "timeout": 0,
 };
@@ -57,7 +57,7 @@ $.ajax(settings).done(function(response) {
 // ALL SECURITY
 
 var settings = {
-    "url": "http://192.168.0.127:3000/admin/all-security-guards",
+    "url": "https://aqcess-f278n.ondigitalocean.app/admin/all-security-guards",
     "method": "GET",
     "timeout": 0,
 };
@@ -71,7 +71,7 @@ $.ajax(settings).done(function(response) {
 // ALL USERS
 
 var settings = {
-    "url": "http://192.168.0.127:3000/admin/all-users",
+    "url": "https://aqcess-f278n.ondigitalocean.app/admin/all-users",
     "method": "GET",
     "timeout": 0,
 };

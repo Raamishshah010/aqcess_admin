@@ -1,7 +1,7 @@
 // ALL MANAGERS
 
 var settings = {
-    "url": "http://192.168.0.127:3000/admin/all-users",
+    "url": "https://aqcess-f278n.ondigitalocean.app/admin/all-users",
     "method": "GET",
     "timeout": 0,
 };
